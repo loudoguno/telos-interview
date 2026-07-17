@@ -1,0 +1,5 @@
+# Rehearsal artifacts are regenerated; keep them out of history.
+evals/out/
+# Built/stamped distribution copies (optional local builds)
+dist/
+.DS_Store
