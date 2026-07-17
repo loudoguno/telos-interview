@@ -314,9 +314,10 @@ Rules for the block:
   Nothing before the header (no preamble, no "here's your dump!") is part of it — the person copies from
   the header down.
 - Fill in the header block below.
-- **Only include the sections you actually covered**, and in the header's ingest mapping table, **keep
-  only the rows for sections you covered** — drop the rest. An Express run has ~8 sections, not 17;
-  don't make the person carry back a table for sections they never did.
+- **Only include the sections you actually covered.** In the header's ingest block, the numbered steps
+  (1–6) are fixed boilerplate — keep them all, verbatim. Only the **mapping table rows** and the
+  trailing **ID-prefix key line** are variable: trim both to the sections you covered. An Express run has
+  ~8 sections, not 17; don't make the person carry back rows for sections they never did.
 - One `=== SECTION: NAME ===` per covered section, using the **exact names** from the header's key.
 - **IDs apply only to the sections that have an ID prefix** (Mission=M, Goals=G, Problems=P,
   Challenges=C, Strategies=S, Narratives=N). For those, write short ID'd lines: `- **M0**: their point
